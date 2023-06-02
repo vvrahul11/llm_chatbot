@@ -1,6 +1,12 @@
 ## LLM Chatbot
 This is a web application that allows you to interact with Falcon(7B parameters) and GPT models. 
 
+### Installation
+```bash
+conda create -n llm_chatbot python=3.9.7
+pip install requirements.txt
+```
+
 ### How to use?
 - Enter a query in the text box and press enter to receive a response
 
