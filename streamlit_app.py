@@ -9,8 +9,10 @@ st.set_page_config(
 st.header("Biomedical LLM Chatbot")
 st.sidebar.header("Instructions")
 st.sidebar.info(
-    '''**This is a web application that allows you to interact with Falcon 7B
-    parameter opensource model. Enter a query in the text box and press enter
+    '''**This is a web application that allows you to interact with Falcon(7B)
+    and GPT models. Falcon can be used for answering general questions, whereas
+    GPT can be used to answer healthcare analytics queries powered by EHRs. 
+    Enter a query in the text box and press enter
     to receive a **response**'''
     )
 
