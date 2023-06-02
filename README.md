@@ -1,8 +1,8 @@
 ## LLM Chatbot
-This is a web application that allows you to interact with Falcon 7B parameter opensource model. 
+This is a web application that allows you to interact with Falcon(7B parameters) and GPT models. 
 
-- How to use?
-Enter a query in the text box and press enter to receive a response
+### How to use?
+- Enter a query in the text box and press enter to receive a response
 
 
 ## Extension ideas
