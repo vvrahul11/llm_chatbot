@@ -1,4 +1,4 @@
-## Falcon App
+## LLM Chatbot
 This is a web application that allows you to interact with Falcon 7B parameter opensource model. 
 
 - How to use?
