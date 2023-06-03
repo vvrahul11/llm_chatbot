@@ -8,12 +8,15 @@ st.set_page_config(
 st.header("Biomedical LLM Chatbot")
 st.sidebar.header("Instructions")
 st.sidebar.info(
-    '''This is a web application that allows you to interact with Falcon(7B)
-    and GPT models. Falcon can be used for answering general questions, whereas
-    GPT can be used to answer healthcare analytics queries powered by EHRs. 
-    Enter a query in the text box and press enter
-    to receive a response'''
+    '''This is a web application that allows you to interact with an 
+    EHR knowledge graph, ask biomedical questions or general questions. 
+    '''
     )
+st.sidebar.info('''Enter a query in the text box and press enter
+    to receive a response''')
+
+st.sidebar.info('''The app is under active development. 
+    There are several issues that needs to be fix''')
 
 if 'generated' not in st.session_state:
     st.session_state['generated'] = []
