@@ -1,4 +1,5 @@
-"""Module to interact with biogpt"""
+"""Module to interact with biogpt, accept user input and generate outputs"""
+
 from transformers import pipeline, set_seed
 from transformers import BioGptTokenizer, BioGptForCausalLM
 import streamlit as st

@@ -1,3 +1,4 @@
+"""Module to create a chatbot interface, accept user input and generate output"""
 import streamlit as st
 from streamlit_chat import message
 

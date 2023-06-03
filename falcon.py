@@ -1,4 +1,5 @@
-"""Module for creating falcon pipeline, accepting user input and generating outputs"""
+"""Module to create falcon pipeline, accept user input, and generate outputs"""
+
 import streamlit as st
 from transformers import AutoTokenizer
 import transformers
