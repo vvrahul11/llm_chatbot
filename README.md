@@ -1,5 +1,6 @@
 ## LLM Chatbot
-This is a web application that allows you to interact with Falcon(7B parameters) and GPT models. 
+This is a web application that allows you to interact with GPT, Bio-GPT, and Falcon(7B parameters) models. 
+Corresponding medium blog post: https://medium.com/towards-artificial-intelligence/using-large-language-models-to-build-a-biomedical-chatbot-and-deploying-it-af7818a0ab7f
 
 ### Installation
 ```bash
